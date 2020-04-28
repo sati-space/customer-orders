@@ -117,8 +117,13 @@
               "devServerTarget": "my-new-project:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "my-new-project"
 }
